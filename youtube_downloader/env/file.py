@@ -22,7 +22,7 @@ contentFrame.pack(fill=ctk.BOTH, expand=True)
 
 
 #create a lable and the entry widget for the vidoe url
-urlLable = ctk.CTkLabel(contentFrame, text="Kindly enter the youtube url")
+urlLable = ctk.CTkLabel(contentFrame, text="Kindly enter the youtube URL")
 entryUrl = ctk.CTkEntry(contentFrame, width=400, height=40)
 urlLable.pack(pady=("10p", "5p"))
 entryUrl.pack(pady=("10p", "5p"))
